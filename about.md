@@ -7,4 +7,4 @@ permalink: /about/
 I'm Iman Tabrizian studying computer software engineering at Amirkabir
 University of technology, Tehran, Iran.
 
-You can find my cv [here](../docs/CV.pdf)
+You can find my cv [here](../docs/CV/CV.pdf)
