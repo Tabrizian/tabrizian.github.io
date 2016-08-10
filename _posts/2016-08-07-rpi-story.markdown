@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Up and Running with nRF"
-date:   2016-03-31 01:21:50 +0430
+date:   2016-08-07 21:21:50 +0430
 categories: jekyll update
 ---
 
