@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Up and Running with nRF"
+date:   2016-08-10 10:26:50 +0430
+categories: jekyll update
+---
+
+It seems getting started with nRF is a nightmare! Specially nRF with arduino
+and raspberry pi.
