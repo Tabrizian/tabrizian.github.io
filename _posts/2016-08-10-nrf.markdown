@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Up and Running with nRF"
+title:  "nRF is nightmare!"
 date:   2016-08-10 10:26:50 +0430
 categories: jekyll update
 ---
