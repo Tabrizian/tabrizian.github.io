@@ -1,19 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Iman Tabrizian
-email: tabrizian@outlook.com
-description: > # this means to ignore newlines until "baseurl:"
-  Iman Tabrizian personal blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://imantabrizian.me" # the base hostname & protocol for your site
-twitter_username: ImanTabrizian
-github_username: tabrizian
+title: My Resume
+url: 'http://webjeda.com'
+baseurl: '/online-cv' #change it according to your repository name
 
-# Build settings
-markdown: kramdown
+
+# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
+#style: styles-2
+#style: styles-3
+#style: styles-4
+#style: styles-5
+#style: styles-6
+
+
+#Profile information
+name: Alan Doe
+tagline: Full Stack Developer
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+#sidebar links
+email: hello@webjeda.com
+phone: 012 345 6789
+website: blog.webjeda.com #do not add http://
+linkedin: alandoe
+github: sharu725
+twitter: '@webjeda'
+
+#Update all the sections by editing the files inside _includes folder.
