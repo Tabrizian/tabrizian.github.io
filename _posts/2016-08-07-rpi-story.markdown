@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Up and Running with nRF"
-date:   2016-08-07 21:21:50 +0430
-categories: jekyll update
----
-
-Trying to get up and running with nrf but I'm too tired! 
