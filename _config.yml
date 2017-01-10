@@ -1,4 +1,3 @@
-
 title: Iman Tabrizian Personal Homepage
 url: 'http://imantabrizian.me'
 baseurl: '' #change it according to your repository name
@@ -9,7 +8,7 @@ baseurl: '' #change it according to your repository name
 #style: styles-3
 #style: styles-4
 #style: styles-5
-#style: styles-6
+style: styles-6
 
 
 #Profile information
@@ -23,5 +22,7 @@ website: blog.imantabrizian.me #do not add http://
 linkedin: tabrizian
 github: tabrizian
 twitter: '@ImanTabrizian'
+stackoverflow: users/4453461/iman
+stackoverflow-display: iman
 
 #Update all the sections by editing the files inside _includes folder.
