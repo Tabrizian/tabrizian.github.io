@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to create PCB layout using altium"
-category: blog
+categories: blog
 
 ---
 
