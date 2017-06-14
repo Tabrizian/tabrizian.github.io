@@ -18,12 +18,29 @@ cases. In this post we're going to use it as a message queue for Laravel.
 
 # Getting Started
 
-## Install Redis
-Firstly, you should install redis in order to use it as message queue.
+## Prerequisites
+
+This tutorial assumes that you have already installed:
+
+* [https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04](Redis)
+* [https://laravel.com/docs/5.4/installation](Laravel)
+
+If you have not installed them click on them to see the installation guide.
+
+**NOTE:** The redis installation guide contains important steps about making
+your redis to start on startup follow the instructions carefully.
+
+## Configuring Laravel to Use Redis
+
+In order to configure laravel to use redis as your queue driver, 
+first:
 
 ```sh
-wget http://download.redis.io/redis-stable.tar.gz
-tar xvzf redis-stable.tar.gz
-cd redis-stable
-make
+composer require predis/predis
 ```
+
+And then change this line in the .env
+
+```sh
+```
+
