@@ -22,8 +22,8 @@ cases. In this post we're going to use it as a message queue for Laravel.
 
 This tutorial assumes that you have already installed:
 
-* [https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04](Redis)
-* [https://laravel.com/docs/5.4/installation](Laravel)
+* [Redis](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04)
+* [Laravel](https://laravel.com/docs/5.4/installation)
 
 If you have not installed them click on them to see the installation guide.
 
