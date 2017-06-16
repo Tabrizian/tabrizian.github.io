@@ -1,6 +1,15 @@
 language: ruby
 rvm:
-- 2.3.3
+- 2.2.5
+
+script: jekyll build && htmlproofer ./_site --external_only true
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - gh-pages     # test the gh-pages branch
+  - /pages-(.*)/ # test every branch which starts with "pages-"
+  - master       # test master branch ! this is a web repository !!
 
 env:
   global:
@@ -8,3 +17,4 @@ env:
 
 # route your build to the container-based infrastructure for a faster build
 sudo: false
+
