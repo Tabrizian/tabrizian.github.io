@@ -97,6 +97,9 @@ Put a simple bootstrap card in the ```pages/index.vue```.
 
 Now you should be able to see a bootstrap card on ```http://localhost:3000```.
 
+We have provided a live example at [here](https://river-radar.glitch.me/).
+Feel free to play with it and improve it!
+
 # Further Reading
 
 If you're intrested and you want to use more ```nuxt.js``` modules see below:
