@@ -33,7 +33,6 @@ is pretty simple.
 
 ```sh
 $ vue init nuxt/starter <project-name>
-
 ```
 
 Then simply install the dependencies.
@@ -74,7 +73,7 @@ modules: [
 Congratulations! :tada: :tada:
 
 Now you can use bootstrap solely or bootstrap with Vue.js friendly API.
-To find more about using it see [here](https://github.com/bootstrap-vue/bootstrap-vue)
+To find more about using bootstrap with Vue.js friendly API see [here](https://github.com/bootstrap-vue/bootstrap-vue)
 
 For example inorder to make sure that this works. 
 
