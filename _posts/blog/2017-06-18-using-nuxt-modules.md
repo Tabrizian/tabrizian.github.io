@@ -82,7 +82,7 @@ Clear all the contents of the ```layouts/default.vue``` and ```pages/index.vue``
 
 Put a simple bootstrap card in the ```pages/index.vue```.
 
-```vue
+```html
 <template>
 <div class="card">
   <div class="card-block">
