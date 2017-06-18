@@ -14,6 +14,6 @@ University of Technology. I'm a big fan of Cloud Computing and Docker
 technology. I really :heart: open source. And the idea of sharing what you
 already know to other people.
 
-If you want to contact me feel free to email me ```tabrizian@outlook.com```.
+If you want to contact me feel free to email me [tabrizian@outlook.com](mailto:tabrizian@outlook.com).
 I love to here from you about your ideas about my blog posts and ways that
 I can improve it.
