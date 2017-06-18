@@ -26,12 +26,13 @@ This tutorial assumes that you have already installed:
 * [Redis](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04)
 * [Laravel](https://laravel.com/docs/5.4/installation)
 
+
+If you have not installed them click on them to see the installation guide.
+
 And assumes that you already know what is laravel queues and how it works
 if don't make sure to read the article below:
 
 * [Laravel Queues](https://laravel.com/docs/5.4/queues)
-
-If you have not installed them click on them to see the installation guide.
 
 **NOTE:** The redis installation guide contains important steps about making
 your redis to start on startup follow the instructions carefully.
