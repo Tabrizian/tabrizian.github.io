@@ -3,6 +3,7 @@ layout: post
 title:  "How to use nuxt modules"
 categories: blog
 comments: true
+share: true
 
 ---
 
