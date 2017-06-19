@@ -5,7 +5,7 @@ locale: en_US
 description: Blog about myself and what I do
 logo: site-logo.png
 search: false
-url: http://imantabrizian.me
+url: https://imantabrizian.me
 
 # Jekyll configuration
 
