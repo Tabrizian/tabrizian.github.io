@@ -4,6 +4,7 @@ title:  "How to use nuxt modules"
 categories: blog
 comments: true
 share: true
+tags: nuxt.js nodejs
 
 ---
 
