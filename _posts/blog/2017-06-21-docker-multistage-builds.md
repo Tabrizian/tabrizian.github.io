@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Docker multi stage builds"
+title:  "Docker multi-stage builds"
 categories: blog
 comments: true
 share: true
@@ -8,7 +8,7 @@ tags: docker devops
 
 ---
 
-In this post we'll talk about latest Docker feature, **MULTISTAGE BUILDS**.
+In this post we'll talk about latest Docker feature, **MULTI-STAGE BUILDS**.
 
 # Introduction
 
