@@ -4,6 +4,8 @@ rvm:
 
 script: jekyll build && htmlproofer ./_site --external_only true
 
+install: gem install jekyll html-proofer
+
 # branch whitelist, only for GitHub Pages
 branches:
   only:
