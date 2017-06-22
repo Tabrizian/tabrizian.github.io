@@ -41,3 +41,15 @@ application into two phase.
 * First, compile sass, js or other things
 * Then, copy the compiled files from previous step and serve the files with 
 your web server.
+
+# I don't like web show me use case in C
+
+In C, C++ or Go things are actually the same. You have a code that is written
+in one language and needs to be compiled and what you really want is the
+compiled binary. By using multi-stage builds you can compiled them in a seprate
+container and run the binary produced from previous stage in another container.
+
+# Awesome, can you provide a sample ```Dockerfile```
+
+Sure, 
+
