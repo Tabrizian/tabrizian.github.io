@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.2.5
 
-script: jekyll build && htmlproofer ./_site --external_only true
+script: jekyll build
 
 install: gem install jekyll html-proofer
 
