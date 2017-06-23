@@ -19,7 +19,7 @@ Finally the long waited feature of Docker is released into the stable branch.
 * Some ways of using multiple ```FROM``` in ```Dockerfile```
 
 
-# Ok, So What the hack is this?!
+# Ok, So What the heck is this?!
 
 Docker multi-stage builds provide some way of creating different bundles 
 and using the results of previous bundle in your new bundle or image. (Without
