@@ -51,5 +51,54 @@ container and run the binary produced from previous stage in another container.
 
 # Awesome, can you provide a sample ```Dockerfile```
 
-Sure, 
+Sure, assume that we have a Dockerfile like below and we want to seperate 
+compile phase from the run phase.
+
+```Dockerfile
+FROM ubuntu:latest
+
+RUN apt-get update
+RUN apt-get install -y gcc cmake
+
+COPY . .
+
+# Compile the binaries
+RUN mkdir build && cd build && cmake ..
+
+# Run the binary
+CMD ["./a.out"]
+```
+
+Now we can split this ```Dockerfile``` into two stage.
+
+First, compile the binaries and then run them.
+
+Below is the multi-stage ```Dockerfile```.
+
+```Dockerfile
+FROM ubuntu:latest as builder
+
+RUN apt-get update
+RUN apt-get install -y gcc cmake
+
+WORKDIR /app
+
+COPY . .
+
+# Compile the binaries
+RUN mkdir build && cd build && cmake ..
+
+FROM alpine
+
+WORKDIR /app
+
+COPY --from=builder /app/build/a.out /app
+
+
+CMD ["./a.out"]
+```
+
+Congratulations :tada: tada:. You've created a multi-stage docker build
+with very minimal images size. That's awesome.
+
 
