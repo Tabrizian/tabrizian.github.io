@@ -98,7 +98,7 @@ COPY --from=builder /app/build/a.out /app
 CMD ["./a.out"]
 ```
 
-Congratulations :tada: tada:. You've created a multi-stage docker build
+Congratulations :tada: tada: . You've created a multi-stage docker build
 with very minimal images size. That's awesome.
 
 
