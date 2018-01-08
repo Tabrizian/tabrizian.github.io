@@ -1,0 +1,153 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Iman}{Tabrizian}
+\title{Statement of Purpose}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+989377371367}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{tabrizian@aut.ac.ir}                               % optional, remove / comment the line if not wanted
+%\homepage{imantabrizian.me}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{University of Waterloo}{Computer Science Department}
+\date{December 10, 2017}
+\opening{}
+\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+
+\makelettertitle
+
+
+With recent advances in the wireless communications and ease of internet access,
+now things can also connect to the internet. This gives the ability to IoT
+developers to interact with the physical world. Although these advances and ideas
+are very promising, they have also brought some challenges with themselves too.
+Some of these challenges are standardizing things connectivity protocol and
+managing the IoT cloud infrastructure. These challenges have already been addressed by
+opportunities that SDN and cloud orchestration provide.
+
+I'm a hands-on person. I've always tried to practically see what's happening
+in a theoretical context. This was achieved by writing pieces of code that explore
+every dimension of that subject. To provide evidence for this claim you can
+look at my GitHub in \href{https://github.com/Tabrizian}{here}. In
+here, you can find lots of projects about university courses as well as some
+open source projects. I was a member of IoT laboratory at our university. This
+provided me with the opportunity to apply what I have learned in a real context too.
+Also, I have studied the theoretical side of computer science subjects.
+My GPA (3.78 / 4) is a sign of that. This shows that I have always kept
+myself up both in the programming and technical issues and in the research and
+theoretical side.
+
+My interest in IoT roots back to the third year of B.Sc when I became the member
+of IoT laboratory - Under the supervision of Prof. Bakhshi.
+In here we were supposed to provide an IoT platform for
+a smart home solution. The requirement of the project was a platform with
+support for various device connectivity protocols and a rule engine that
+supports user-defined event triggering between endpoints. We started with Kaa
+and Kaa applications to reach this goal but we found out that our requirements
+don't fit into this platform. We started creating a platform by ourselves
+with three goals in mind. Hierarchical type definition for endpoints,
+supporting different device connectivity protocol and lightweight
+agent applications. We made it in almost 6 months and the platform worked the
+way we expected.
+
+To talk more about my experience in the field of IoT I've also worked with a
+company in the innovation center of our university to provide the IKCO,
+leading car company in Iran, an IoT based solution for manufacturing cars
+and the subsystems of the car with less effort and mistake. It is deployed now
+and tens of things are connected seamlessly to the platform. It is using
+a pub/sub architecture for the connectivity. But as the timed passed on some
+challenges arose. The first one was the fact that agent applications required some extra effort
+and don't follow a common standard message content. Moreover, the deployment
+of the platform required some extra effort to be near to the things to ensure
+real-time connectivity. Furthermore, keeping the IoT platform infrastructure
+in good shape is a tedious task. I thought how interesting it would be if you
+can define the infrastructure of your application as code so that you can reuse
+it or reproduce it in minimal time. These challenges could be addressed by SDN and
+cloud orchestration which redirected me to these fields.
+
+SDN and especially southbound APIs provided the solution to the first challenge.
+SDN has already solved this problem by using OpenFlow as the protocol for
+the devices. Furthermore, SDN provided some really brilliant ideas for the
+IoT too. Most of SDN controllers now provide northbound APIs which allows
+developers to interact with OpenFlow enabled devices without having to worry
+about the southbound API. Moreover, both SDN and IoT promised central management.
+These examples show how these fields can contribute to each other. This
+lead me to further explore industry-leading SDN controllers such as ONOS.
+
+Cloud orchestration can also help with IoT platforms in their deployment.
+The first way is by creating DSLs (Domain Specific Languages) to describe
+how should they be deployed. For example, a DSL can help IoT platforms
+to define what components should be scaled based on what condition or where
+should the components be deployed to ensure real-time connection with things.
+This encouraged me to further explore this field. Beginning in the summer
+of 2017 I started to develop Genorch a generic orchestration platform
+aimed at creating a YAML format to describe applications and their underlying
+infrastructure. You can see the project source code \href{https://github.com/genorch/orchestration}{here}.
+
+In \href{https://github.com/Genorch/Orchestration/blob/master/examples/clusters.yml}{here}
+you can see a YAML file describing two Docker Swarm within six virtual machines.
+It was tested and developed in association with University of Toronto ECE
+department. Also, it was tested on the SAVI (testbed of UofT).
+
+One of the greatness of Cornell University is that it has great projects in
+the field of IoT. I talked about the IoT projects on the CS department with
+professor Ken Birman and I found the Derecho project very interesting. I have
+looked for projects similar to this on a wide variety of universities but
+Cornell University is one of the few universities that are working on this
+topic to build a realtime cloud for IoT applications.
+
+I believe my grades, my work \& research experience and huge dedication
+to open source projects distinguishes me from others. As I mentioned in the
+paragraphs above I know the about the current trends also I know about the
+challenges in current trends and I have tried to provide partial solutions
+to these challenges. I think by involving in this program I can further
+investigate and work on these challenges.
+
+\makeletterclosing
+
+\end{document}
+
+%% end of file `template.tex'.

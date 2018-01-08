@@ -24,8 +24,8 @@
 % 3. Add styling information for a "Projects/Hacks" section.
 % 4. Add location/address information
 % 5. Merge OpenFont and MacFonts as a single sty with options.
-%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
 %
 % CHANGELOG:
 % v1.1:
@@ -157,7 +157,7 @@ Mininet \textbullet{} Hapi.js \textbullet{} Vue.js
 \item Eliglbe to choose second major
 \item Ranked $1^{st}$ among all \\ entrance university students \\
     in ${14^{th}}$ Amirkabir ACM-ICPC
-\item Top 0.007\% in the national \\university entrance exam
+\item Top 0.7\% in the national \\university entrance exam
 \end{tightemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -226,24 +226,16 @@ Mininet \textbullet{} Hapi.js \textbullet{} Vue.js
     It was tested on SAVI (testbed of University of Toronto).
 \sectionsep
 
-    \runsubsection{COE (Container Orchestrator Evaluator)}
+    \runsubsection{An auto-scaler for Docker Swarm}
     \descript{| Go}
     \location{Final year dissertion}
-    Container Orchestrator Evaluator is the topic of my B.Sc thesis. In this
-    project I'm supposed to run three different scenarios for three different
-    container orchestration platforms. The container orchestrators that I'm
-    going to evaluate is \textbf{Docker Swarm}, \textbf{Kubernetes} and \textbf{OpenStack}.
-    The scenarios are:
-    \vspace{\topsep} % Hacky fix for awkward extra vertical space
-    \begin{tightemize}
-    \item
-        Compute Intensive
-    \item
-        Memory Intensive
-    \item
-        Network load Intensive
-
-    \end{tightemize}
+    In this project I'm supposed to provide an auto-scaler for Docker Swarm.
+    Currently, Docker Swarm doesn't provide any automattic horizontal scaling
+    of containers and only load balances between static number of containers.
+    In this project I'm supposed to provide an auto-scaler for Docker Swarm
+    which enables developers to define a criteria and an action that
+    should be taken on this criteria to define the automattic scaling policy of
+    their applications.
 
 \sectionsep
 
@@ -280,6 +272,14 @@ Mininet \textbullet{} Hapi.js \textbullet{} Vue.js
 \section{Languages}
 English: professional working \\proficiency (TOEFL iBT 107) \\
 Persian: Native proficiency
+
+\section{Teaching}
+    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Teaching Assistant 3x
+\item Instructor of Programming with C++ \\at Rouzbeh High School for 3 years.
+\end{tightemize}
+
 
 \end{minipage}
 \hfill
@@ -343,6 +343,19 @@ best practices in code editing.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Publications}
+\runsubsection{Genorch - A tool for large-scale, cloud vendor neutral deployments}
+    \descript{|  NETSOFT 2018}
+    This paper is still in progress and is supposed to describe what we have
+    done in Genorch Project (more detail in the project section) to tackle
+    with the problem of large-scale and multi-cloud deployments.
+
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     REFERENCES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -353,25 +366,17 @@ best practices in code editing.
     Email: \href{mailto:bbakhshi@aut.ac.ir}{bbakhshi@aut.ac.ir}
 \sectionsep
 
-\runsubsection{Masoud Sabaei}
-    \descript{| Associate Professor}
-    Amirkabir University of Technology, Department of Computer Engineering and Information Technology \\
-    Email: \href{mailto:sabaei@aut.ac.ir}{sabaei@aut.ac.ir}
-\sectionsep
-
 \runsubsection{Mehdi Dehghan}
     \descript{| Professor}
     Amirkabir University of Technology, Department of Computer Engineering and Information Technology \\
     Email: \href{mailto:dehghan@aut.ac.ir}{dehghan@aut.ac.ir}
 \sectionsep
 
-\runsubsection{Mehdi Rasti}
-    \descript{| Assistance Professor}
+\runsubsection{Masoud Sabaei}
+    \descript{| Associate Professor}
     Amirkabir University of Technology, Department of Computer Engineering and Information Technology \\
-    Email: \href{mailto:rasti@aut.ac.ir}{rasti@aut.ac.ir}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Email: \href{mailto:sabaei@aut.ac.ir}{sabaei@aut.ac.ir}
+\sectionsep
 
 % \section{Publications}
 % \renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
