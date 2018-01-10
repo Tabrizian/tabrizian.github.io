@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "Iman Tabrizian"
-  avatar           : "profile.jpg"
+  avatar           : "images/profile.jpg"
   bio              : "Interested in IoT, Cloud Orchestration and Software Defined Networking"
   location         : "Tehran, Iran"
   employer         :
