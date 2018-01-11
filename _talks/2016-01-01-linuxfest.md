@@ -2,7 +2,7 @@
 title: "Code editting in VIM"
 collection: talks
 type: "Talk"
-permalink: /talks/2016-01-01-linuxfest.md
+permalink: /talks/2016-01-01-linuxfest
 venue: "7th LinuxFestival, Amirkabir University"
 date: 2016-01-01
 location: "Tehran, Iran"
