@@ -3,7 +3,7 @@ title: "Virtualization Workshop"
 collection: talks
 type: "Talk"
 permalink: /talks/2017-01-01-linuxfest
-venue: "8th LinuxFestival, Amirkabir University"
+venue: "9th LinuxFestival, Amirkabir University"
 date: 2017-01-01
 location: "Tehran, Iran"
 ---
@@ -18,3 +18,5 @@ This was a 3 hour workshop about the fundamentals of virtualization with emphasi
 
 You can find the slides of the talk in [here](https://docs.google.com/presentation/d/1cbwBxhXSKFfL_9xNE9Aa2Qr_ILjmx1LSVeO04HnBBmc/edit?usp=sharing).
 
+
+![9th Linux Festival](https://imantabrizian.me/images/linux-fest-2017-virtualization-workshop.jpg)
