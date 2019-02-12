@@ -1,9 +1,9 @@
 ---
-title: "Introduction to Cloud Orchestration"
+title: "Approximate Counting Algorithms"
 collection: talks
 type: "Talk"
 permalink: /talks/2019-02-12-savi-loglogcounting
-venue: "1st Series of Undergraduate Talks"
+venue: "SAVI Research Group"
 date: 2019-02-12
 location: "Toronto, Canada"
 ---
