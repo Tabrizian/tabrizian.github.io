@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.Sc. in Computer Engineering (Software), Amirkabir University of Technolog, 2018
+* MASc. in Electrical and Computer Engineering (Computer Networks), University of Toronto, 2020 (Expected)
 
 Work experience
 ======
