@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Iman Tabrizian"
 title_separator          : "-"
 name                     : &name "Iman Tabrizian"
-description              : &description "IoT Researcher and Developer"
+description              : &description "Research Assistant"
 url                      : https://imantabrizian.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tabrizian/tabrizian.github.io"
@@ -81,7 +81,7 @@ author:
   name             : "Iman Tabrizian"
   avatar           : "profile.jpg"
   bio              : "Interested in IoT, Cloud Orchestration and Software Defined Networking"
-  location         : "Tehran, Iran"
+  location         : "Toronto, ON"
   employer         :
   googlescholar    :
   email            : "iman.tabrizian@gmail.com"
