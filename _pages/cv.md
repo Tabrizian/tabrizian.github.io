@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.Sc. in Computer Engineering (Software), Amirkabir University of Technolog, 2018
 * MASc. in Electrical and Computer Engineering (Computer Networks), University of Toronto, 2020 (Expected)
+* B.Sc. in Computer Engineering (Software), Amirkabir University of Technology, 2018
 
 Work experience
 ======
