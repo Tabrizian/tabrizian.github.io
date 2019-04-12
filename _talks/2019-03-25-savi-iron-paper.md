@@ -8,6 +8,6 @@ date: 2019-03-25
 location: "Toronto, Canada"
 ---
 
-It was a 20 minute presentation about the NSDI' 18 paper about the Iron paper.
+It was a 20 minute presentation about the NSDI '18 paper about the Iron paper.
 You can read more about the Iron paper in [here](https://www.usenix.org/conference/nsdi18/presentation/khalid).
 
