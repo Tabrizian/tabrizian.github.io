@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "DataFog: Towards a Holistic Data Management Platform for the IoT Age at the Network Edge"
 collection: talks
 type: "Talk"
 permalink: /talks/2019-04-09-datafog-paper
