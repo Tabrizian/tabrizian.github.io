@@ -1,3 +1,8 @@
+# File              : _config.yml
+# Author            : Iman Tabrizian <iman.tabrizian@gmail.com>
+# Date              : 11.04.2019
+# Last Modified Date: 11.04.2019
+# Last Modified By  : Iman Tabrizian <iman.tabrizian@gmail.com>
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -80,7 +85,7 @@ analytics:
 author:
   name             : "Iman Tabrizian"
   avatar           : "profile.jpg"
-  bio              : "Interested in IoT, Cloud Orchestration and Software Defined Networking"
+  bio              : "Interested in Cloud Orchestration, Software Defined Networking and Machine Learning"
   location         : "Toronto, ON"
   employer         :
   googlescholar    :
