@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I'm Iman Tabrizian graduate student at University of Toronto. My research interests are Internet of Things, Cloud Orchestration and Machine Learning.
+I'm Iman Tabrizian MASc student at the Electrical & Computer Engineering (ECE), University of Toronto. My research interests are Cloud Orchestration, Software Defined Networking and Machine Learning.
