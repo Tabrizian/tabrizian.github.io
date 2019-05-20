@@ -1,7 +1,7 @@
 # File              : _config.yml
 # Author            : Iman Tabrizian <iman.tabrizian@gmail.com>
 # Date              : 11.04.2019
-# Last Modified Date: 11.04.2019
+# Last Modified Date: 20.05.2019
 # Last Modified By  : Iman Tabrizian <iman.tabrizian@gmail.com>
 # Welcome to Jekyll!
 #
@@ -78,7 +78,8 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-101201565-2"
+
 
 
 # Site Author
