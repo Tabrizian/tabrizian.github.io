@@ -1,7 +1,7 @@
 # File              : _config.yml
 # Author            : Iman Tabrizian <iman.tabrizian@gmail.com>
 # Date              : 11.04.2019
-# Last Modified Date: 20.05.2019
+# Last Modified Date: 23.05.2019
 # Last Modified By  : Iman Tabrizian <iman.tabrizian@gmail.com>
 # Welcome to Jekyll!
 #
@@ -60,7 +60,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : ITabrizian
 facebook:
   username               :
   app_id                 :
