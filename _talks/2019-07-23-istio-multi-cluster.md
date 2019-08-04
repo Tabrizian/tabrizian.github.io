@@ -16,3 +16,4 @@ I held a 30 minute talk covering topics:
 * Demo of Istio traffic management and monitroing
 * Multicluster Kubernetes and how it works in Kubernetes
 
+You can find the slides of my talk in [this powerpoint](https://drive.google.com/open?id=1ZGPcTWMC776PYU_QOm8Ja25DE4I8HJ4Q).
