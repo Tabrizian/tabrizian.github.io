@@ -8,3 +8,9 @@ date: 2015-01-01
 location: "Tehran, Iran"
 ---
 
+My responsiblities include:
+* Grading assignments
+* Creating new assignments
+* Designing final project
+* Evaluation of final project
+* Holding a one day workshop
