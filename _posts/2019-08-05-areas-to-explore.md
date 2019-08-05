@@ -1,5 +1,5 @@
 ---
-title:  "Areas To Explore In Systems And Networking"
+title:  "Areas to Explore in Systems and Networking"
 date: 2019-08-05
 permalink: /posts/2019/08/areas-to-explore-in-systems-and-networking
 tages:
