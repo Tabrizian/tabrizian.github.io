@@ -90,6 +90,9 @@ These are some of the interesting papers in this area:
 * [Distributing Deep Neural Networks with Containerized Partitions at the Edge](https://www.usenix.org/conference/hotedge19/presentation/zhou)
 * [An Edge-based Framework for Cooperation in Internet of Things Applications](https://www.usenix.org/conference/hotedge19/presentation/leidall)
 
+
+# What's next?!
+
 These are just some of the areas that are I found interesting in systems and 
 networking. There are lot of other interesting areas that I may discuss in a 
 later post on this topic!
