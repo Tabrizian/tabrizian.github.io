@@ -3,7 +3,7 @@ title: "CSC309: Programming on the Web"
 collection: teaching
 type: "Teaching assistant"
 permalink: /teaching/2019-winter-programming-on-the-web
-venue: "Amirkabir University"
+venue: "University of Toronto"
 date: 2019-01-01
 location: "Toronto, Canada"
 ---
