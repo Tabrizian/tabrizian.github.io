@@ -1,7 +1,7 @@
 # File              : _config.yml
 # Author            : Iman Tabrizian <iman.tabrizian@gmail.com>
 # Date              : 11.04.2019
-# Last Modified Date: 23.05.2019
+# Last Modified Date: 14.08.2019
 # Last Modified By  : Iman Tabrizian <iman.tabrizian@gmail.com>
 # Welcome to Jekyll!
 #
@@ -179,11 +179,11 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+    puoutput: true
+    pupermalink: /:collection/:path/
+    # news:
+    #   output: true
+    #   permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -231,6 +231,15 @@ defaults:
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: news
     values:
       layout: single
       author_profile: true
