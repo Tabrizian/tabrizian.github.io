@@ -10,7 +10,7 @@ redirect_from:
 
 I'm Iman Tabrizian MASc student at the Electrical & Computer Engineering (ECE),
 University of Toronto. I am broadly interested in computer systems and
-networking. Specifically, about data intensive-applications and the system
+networking. Specifically, about data-intensive applications and the system
 challenges involved in designing platforms that need to process massive volumes
 of data.
 
