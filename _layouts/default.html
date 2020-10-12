@@ -33,19 +33,12 @@
   <body>
     
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Iman Tabrizian</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="container">
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto mb-3 mb-md-0">
+      <ul class="navbar-nav px-5 mr-auto mb-3 mb-md-0">
         <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Posts</a>
+          <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Publications</a>
@@ -59,20 +52,31 @@
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Teaching</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Posts</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<main class="container-fluid">
+<main class="container">
 
-  <div class="starter-template text-left py-5">
+  <div class="starter-template text-left px-5 py-5">
       <div class="row">
-          <div class="col-2">
-              <img class="img-fluid" src="https://github.com/tabrizian.png"/>
-          </div>
-          <div class="col-10">
+          <div class="col-9">
               {{ content }}
+          </div>
+          <div class="col-3">
+              <img class="img-fluid" src="https://github.com/tabrizian.png"/>
+              <div class="card">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><i class="fab fa-github"></i> <a href="https://github.com/Tabrizian">Tabrizian</a></li>
+                      <li class="list-group-item"><i class="fas fa-envelope"></i> iman[dot]tabrizian[at] mail.utoronto.ca</li>
+                      <li class="list-group-item"><i class="fab fa-twitter"></i> <a href="https://twitter.com/ITabrizian">ITabrizian</a></li>
+                      <li class="list-group-item"><i class="fab fa-stack-overflow"></i> <a href="https://stackoverflow.com/users/4453461/iman"> iman</a></li>
+                  </ul>
+              </div>
           </div>
       </div>
   </div>
@@ -82,6 +86,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/625c1c325b.js" crossorigin="anonymous"></script>
 
 
       
