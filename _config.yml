@@ -1,3 +1,14 @@
 title: Iman Tabrizian Personal Website
 description: "Iman Tabrizian Personal Website"
 
+scholar:
+  style: chicago-fullnote-bibliography
+  locale: en
+
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: bib
+  bibliography_list_tag: 'div'
+  bibliography_item_tag: 'span'
+
+

@@ -1,4 +1,18 @@
 ---
 ---
+<div class="card">
+  <div class="card-body">
+      <h5 class="card-title">{{ entry.title }}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{entry.author}}</h6>
 
-<pre>{{ entry.bibtex }}</pre>
+      {% if entry.journal %}
+        <p class="card-text">{{ entry.journal }} . {{ entry.year }}</p>
+      {% endif %}
+      {% if entry.booktitle %}
+        <p class="card-text">{{ entry.booktitle }} . {{ entry.year }}</p>
+      {% endif %}
+    <a href="{{ entry.url }}" class="card-link" class="btn btn-outline-primary btn-sm">pdf</a>
+  </div>
+</div>
+<br>
+
