@@ -17,6 +17,7 @@ permalink: /teaching/
         </div>
     </div>
 </div>
+<br/>
 
 <div class="card">
     <div class="card-body">
@@ -31,6 +32,7 @@ permalink: /teaching/
         </div>
     </div>
 </div>
+<br/>
 
 
 <div class="card">
@@ -46,4 +48,5 @@ permalink: /teaching/
         </div>
     </div>
 </div>
+<br/>
 
