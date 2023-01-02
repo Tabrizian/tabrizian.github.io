@@ -18,10 +18,8 @@ jobs:
          restore-keys: |
            ${{ runner.os }}-gems-
      
-      - uses: helaili/jekyll-action@2.0.4
-        env:
-          # Ideally use GITHUB_TOKEN but it gives error for this action.
-          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+      - uses: helaili/jekyll-action@2.4.0
         with:
           target_branch: 'gh-pages'
+          token: ${{ secrets.GITHUB_TOKEN }}
 
